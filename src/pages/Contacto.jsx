@@ -6,7 +6,7 @@ const Contacto = () => {
   return (
     <>
       <h2>Cuentanos, ¿en que te podemos ayudar?</h2>
-      <Form>
+      <Form className="container px-5">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Correo</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
